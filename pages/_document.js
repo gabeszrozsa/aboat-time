@@ -10,6 +10,10 @@ class MyDocument extends Document {
 					<meta name="Description" content="Tihanyrév - Szántódrév komp" />
 					<link rel="manifest" href="static/manifest.json" />
 					<link rel="icon" href="static/img/favicon.png" />
+					<link
+						rel="apple-touch-icon"
+						href="/static/img/apple-touch-icon-150x150.png"
+					/>
 					<style>
 						{`
 						@font-face {
