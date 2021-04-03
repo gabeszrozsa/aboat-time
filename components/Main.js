@@ -16,14 +16,14 @@ export const Main = () => {
 				<div>
 					<City>Szántódrév</City>
 					{szantod.slice(0, 3).map(({ start, end }) => (
-						<Card start={start} end={end} />
+						<Card key={start} start={start} end={end} />
 					))}
 				</div>
 
 				<div>
 					<City>Tihanyrév</City>
 					{tihany.slice(0, 3).map(({ start, end }) => (
-						<Card start={start} end={end} />
+						<Card key={start} start={start} end={end} />
 					))}
 				</div>
 			</section>
