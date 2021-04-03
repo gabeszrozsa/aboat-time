@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom'
 import Head from 'next/head'
 import App from 'next/app'
 
+import '../styles/font.css'
+
 export default class MyApp extends App {
 	static async getInitialProps({ Component, ctx }) {
 		return {
